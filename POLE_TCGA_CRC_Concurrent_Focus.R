@@ -2,8 +2,8 @@
 # TCGA as external validation cohort, simulation of small NGS panel (Illumina Focus Panel)
 # For Illumina Focus Panel: https://www.illumina.com/products/by-type/sequencing-kits/library-prep-kits/ampliseq-focus-panel.html
 # Author: Nic G. Reitsam
-# NOTE: This R script provides a **general framework** and **guidance** for how we accessed and analyzed TCGA data for this work.
-# It is **not identical** to the exact code used for generating all the figures in the publication. Certain aspects, like specific file paths, data filtering, and processing, may have been adjusted for presentation or reproducibility purposes. The code herein should help others replicate the analysis or modify it for their own use cases.
+# NOTE: This R script provides a general framework and guidance for how we accessed and analyzed TCGA data for this work.
+# It is not identical to the exact code used for generating all the figures in the publication. Certain aspects, like specific file paths, data filtering, and processing, may have been adjusted for presentation or reproducibility purposes.
 # E.g. for our own cohort, we used a customized version of somaticInteractions in analogy to the function used here. As input, we did not use a MAF but a matrix.
 # For the exact steps and configurations used to generate the figures in the publication, please contact the authors.
 
