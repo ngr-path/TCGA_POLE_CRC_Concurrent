@@ -5,7 +5,7 @@ Please refer to our publication:
 
 ### Project Overview
 
-This repository contains an R script for analyzing POLE-mutated colorectal cancers (CRC) within TCGA-COAD and TCGA-READ as an external validation cohort. The analysis includes a simulation of a small NGS panel (Illumina Focus Panel) to assess the feasibility of targeted sequencing in this context. We hypothesized that POLE-mutated CRCs are characterized by an increased numbers of mutations even when tested with a small panel, that does not cover the POLE gene itself. As small NGS-based panel approaches are used currently in the routine work-up of CRCs, this could be helpful in screening for the small but relevant subset of POLE-mutated CRCs. POLE-mutated CRCs show an exceptional respone to immunotherapeutic approaches.
+This repository contains a short R script for analyzing POLE-mutated colorectal cancers (CRC) within TCGA-COAD and TCGA-READ as an external validation cohort. The analysis includes a simulation of a small NGS panel (Illumina Focus Panel) to assess the feasibility of targeted sequencing in this context. We hypothesized that POLE-mutated CRCs are characterized by an increased numbers of mutations even when tested with a small panel, that does not cover the POLE gene itself. As small NGS-based panel approaches are used currently in the routine work-up of CRCs, this could be helpful in screening for the small but relevant subset of POLE-mutated CRCs. POLE-mutated CRCs show an exceptional respone to immunotherapeutic approaches.
 
 For the clinical response of POLE-mutated CRCs to immune checkpoint inhibitors please, refer to [Ambrosini et al, Annals of Oncology 2024](https://linkinghub.elsevier.com/retrieve/pii/S0923-7534(24)00104-2), doi: 10.1016/j.annonc.2024.03.009.
 
@@ -35,11 +35,3 @@ Colaprico A, Silva TC, Olsen C, Garofano L, Cava C, Garolini D, Sabedot TS, Malt
 
 Cancer Genome Atlas Network. Comprehensive molecular characterization of human colon and rectal cancer. Nature. 2012 Jul 18;487(7407):330-7. doi: 10.1038/nature11252.
 
-### Installation
-
-To install dependencies (also part of the script), run:
-
-```r
-if (!requireNamespace("BiocManager", quietly = TRUE))
-    install.packages("BiocManager")
-BiocManager::install(c("TCGAbiolinks", "maftools", "dplyr"))
