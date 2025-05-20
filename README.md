@@ -1,7 +1,7 @@
 # Identifying POLE-mutant CRCs in a routine pathologic workflow
 POLE-mutated CRCs in TCGA and their co-mutations in small NGS-panel approaches
 
-Please refer to our publication: 
+Please refer to our publication: currently under review
 
 ### Project Overview
 
@@ -29,7 +29,7 @@ For more detailed information, please contact the authors.
 
 ### Citation
 
-If you use this script, please cite the relevant [TCGA-COAD & TCGA-READ](https://www.nature.com/articles/nature11252) and [TCGAbiolinks](https://academic.oup.com/nar/article/44/8/e71/2465925?login=true) publications:
+If you use this script, please cite also the relevant [TCGA-COAD & TCGA-READ](https://www.nature.com/articles/nature11252) and [TCGAbiolinks](https://academic.oup.com/nar/article/44/8/e71/2465925?login=true) publications:
 
 Colaprico A, Silva TC, Olsen C, Garofano L, Cava C, Garolini D, Sabedot TS, Malta TM, Pagnotta SM, Castiglioni I, Ceccarelli M, Bontempi G, Noushmehr H. TCGAbiolinks: an R/Bioconductor package for integrative analysis of TCGA data. Nucleic Acids Res. 2016 May 5;44(8):e71. doi: 10.1093/nar/gkv1507. 
 
