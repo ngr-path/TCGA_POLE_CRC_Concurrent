@@ -1,7 +1,7 @@
 # Identifying POLE-mutant CRCs in a routine pathologic workflow
 POLE-mutated CRCs in TCGA and their co-mutations in small NGS-panel approaches
 
-Please refer to our publication: currently under review
+Please refer to our publication in NPJ Precision Oncology, published on the 3rd July 2026: https://www.nature.com/articles/s41698-026-01572-1
 
 ### Project Overview
 
